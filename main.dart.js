@@ -48532,10 +48532,10 @@ break
 case 5:return P.a5(null,r)
 case 1:return P.a4(p,r)}})
 return P.a6($async$oP,r)},
-W(a,b){var s,r=this,q=null,p=L.Bn(r.a.c,q,q,q)
-if(!r.d)s=new D.xl(r.gUW(),q,q,C.D,q,!1,L.Bn("Login",q,q,q),q)
-else{s=r.e
-s=T.a4z(H.a([new U.pI(M.afK(q,q,new D.mm(s.b,1)),q),L.Bn(s.a,q,q,q),L.Bn(s.c,q,q,q)],t.p),C.f7)}return new M.ri(new E.oB(p,new E.FA(q,q,1/0,56),q),T.JJ(T.a4z(H.a([s],t.p),C.nd),q,q),q)}}
+W(a,b){var s,r=null,q=L.Bn(this.a.c,r,r,r)
+if(!liff.isLoggedIn())s=new D.xl(this.gUW(),r,r,C.D,r,!1,L.Bn("Login",r,r,r),r)
+else{s=this.e
+s=T.a4z(H.a([new U.pI(M.afK(r,r,new D.mm(s.b,1)),r),L.Bn(s.a,r,r,r),L.Bn(s.c,r,r,r)],t.p),C.f7)}return new M.ri(new E.oB(q,new E.FA(r,r,1/0,56),r),T.JJ(T.a4z(H.a([s],t.p),C.nd),r,r),r)}}
 F.Xx.prototype={
 $0(){var s=this.a
 s.d=liff.isLoggedIn()
